@@ -39,7 +39,7 @@ class PredefinedRanges extends Component {
 
       return (
         <a
-          href='#'
+          href='javascript:void(0)'
           key={'range-' + name}
           className={classes.predefinedRangesItem + (active ? ' active' : '')}
           style={ style }
